@@ -78,6 +78,12 @@ VS code 실행 : code `안될때 참고 사이트 https://smilehugo.tistory.com/
 
 ***기울임이었음***
 
+
+
+👾*control + / : 하면 서식 없이 볼 수 있음 ***
+
+
+
 # ## `MARKDOWN.md` 🤔복습해 볼까요
 
 > 확장자는 .md
