@@ -60,7 +60,7 @@ VS code 실행 : code `안될때 참고 사이트 https://smilehugo.tistory.com/
 
 이미지는 경로 복사해서 붙여넣기!
 
- <img src="Untitled.assets/스크린샷 2021-12-30 오후 3.15.26.png" alt="스크린샷 2021-12-30 오후 3.15.26" style="zoom:50%;" />
+<img src="TIL.assets/image.png" alt="image" style="zoom:50%;" />
 
 
 
