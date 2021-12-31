@@ -117,7 +117,7 @@ VS code 실행 : code `안될때 참고 사이트 https://smilehugo.tistory.com/
 
 ## Git 
 
-git init > 시작 경로 주의!
+git init > 시작 경로 주의! 홈에서 실행하면 절대안됨! 추적할 Git local 저장소 만들기
 
 git add : commit 하기 전 대기상태
 
@@ -133,7 +133,38 @@ git log : log 보기
 
 git log --oneline : log 한줄로 보기
 
-git remote add <이름> <주소> :
+git remote add <저장소이름설정> <github에서 긁어온 저장소 주소> : 원격 저장소와 local 저장소 연결
 
-git push 'user' 'master' : commit 한 파일이 github 'user' 저장소 'master'라는 branch로 업데이트
+git push <원하는저장소이름>  <master> : commit 한 파일이 github '원하는저장소이름' 저장소 'master'라는 branch로 업데이트
+
+git clone 주소  : 터미널 홈에서 실행, 주소에서 가져온 이름의 로컬 저장소 폴더를 만들어줌(git 추적중)  
+
+git pull <저장소이름> <브랜치이름(master)> : 받아오기
+
+*push 했을때 merge 오류 발생시  > pull 해오기 > 상황파악 후 내용 수정 > add,commit > push 
+
+
+
+> git init 과 git clone 차이
+>
+> 1. 로컬에서 시작한다 -> git init -> add commit -> 온라인으로 가서 방을 받고 주소를 받는다 -> git remote add로 연결한다.
+> 2. 온라인에서 시작한다 -> git clone 주소 -> 해당 클론 받은 곳에 폴더가 생기며 그 폴더는 이미 깃의 관리를 받고 있다.
+>
+> 결론 : 둘다 git init 과 git clone 은 한번만 작성하는 명령어이다.
+
+
+
+git merge <브랜치2> : 현재 위치한 브랜치1에 브랜치2를 합치기
+
+git branch : 어떤 브랜치에 있는지 확인
+
+git branch <이름> : 브랜치 생성
+
+git switch <이름> : 브랜치 이동
+
+`현업에서 보통 바로 master 로 merge 하지않음 branch + branch `
+
+`hot fix branch >바로 마스터에 올리는 브랜치`
+
+
 
